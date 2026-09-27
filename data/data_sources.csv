@@ -1,0 +1,7 @@
+source,role,frequency,access,prototype_use,production_note,reference_url
+Baltic Exchange,bulk freight assessments,daily,licensed,benchmark/context only,"Use route-level licensed assessments/FFAs where contractually permitted",https://www.balticexchange.com/en/data-services/market-information0/indices.html
+World Bank Pink Sheet,Australian coal benchmark,monthly,public,reference value,"Use monthly series as macro/commodity feature",https://www.worldbank.org/en/research/commodity-markets
+Paradip Port Authority,berth limits,updated periodically,public,hard constraints,"Refresh berth/tide rules from official circulars",https://paradipport.gov.in/berth-specifications/
+Visakhapatnam Port Authority,berth limits,updated periodically,public,hard constraints,"Refresh berth/tide rules from official page",https://vpt.shipping.gov.in/Template/navigateTemplate/gnt/QmVydGhz
+UNCTADstat,port/trade indicators,annual/semiannual/monthly where available,public,planned,"Use for trade/port context and validation",https://unctadstat.unctad.org/datacentre/
+AIS provider or institutional feed,vessel position ETA availability,near real time,licensed/institutional,adapter-ready,"Use normalized vessel schema",https://marinecadastre.gov/ais/

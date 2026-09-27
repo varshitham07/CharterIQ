@@ -1,0 +1,8 @@
+port,loa_limit_m,beam_limit_m,draft_limit_m,bulk_handling_mt_day,congestion_index,source_status,source_note
+Paradip,300,46,14.5,52000,38,official_public_reference,"Paradip Port Authority berth specification baseline; specific berths/tides can permit different drafts"
+Dhamra,350,50,18.0,60000,27,public_government_reference,"Public/government material describes 18m draft and large dry-bulk capability; verify berth-specific operational rule before production"
+Visakhapatnam,240,42,14.5,47000,44,official_public_reference,"Visakhapatnam Port Authority berth particulars"
+Gangavaram,300,50,17.8,65000,31,research_seed,"Cape-size capability established in government/Sagarmala material; exact limits require current terminal confirmation"
+Gopalpur,245,40,12.5,32000,22,research_seed,"Prototype seed pending current berth-level terminal confirmation"
+Haldia,230,36,9.8,28000,51,research_seed,"Prototype seed pending current berth-level terminal confirmation"
+Sagar-Sandheads,290,46,13.5,40000,36,research_seed,"Prototype seed pending current berth-level terminal confirmation"

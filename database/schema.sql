@@ -1,0 +1,5 @@
+CREATE TABLE cargo_requirements (id BIGSERIAL PRIMARY KEY, commodity VARCHAR(64), quantity_mt NUMERIC, origin VARCHAR(64), destination VARCHAR(64), start_date DATE, end_date DATE, shipments INT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE vessels (id BIGSERIAL PRIMARY KEY, name VARCHAR(128), vessel_class VARCHAR(32), dwt NUMERIC, loa_m NUMERIC, beam_m NUMERIC, draft_m NUMERIC, speed_kn NUMERIC, fuel_laden_mt_day NUMERIC, availability_pct NUMERIC);
+CREATE TABLE ports (id BIGSERIAL PRIMARY KEY, name VARCHAR(64), loa_limit_m NUMERIC, beam_limit_m NUMERIC, draft_limit_m NUMERIC, handling_mt_day NUMERIC, congestion_index NUMERIC, source_status VARCHAR(64));
+CREATE TABLE freight_observations (id BIGSERIAL PRIMARY KEY, observed_date DATE, vessel_class VARCHAR(32), origin VARCHAR(64), destination VARCHAR(64), rate_usd_t NUMERIC, source VARCHAR(128), source_status VARCHAR(64));
+CREATE TABLE scenarios (id BIGSERIAL PRIMARY KEY, name VARCHAR(128), payload JSONB, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
